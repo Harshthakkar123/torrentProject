@@ -1,0 +1,28 @@
+package com.example.Customers;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.springframework.stereotype.Component;
+
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Component
+public class PaymentDto {
+
+    private Long id;
+
+    private String name;
+
+    private String status;
+
+    private Integer customerNo;
+
+    private String customerEmail;
+
+    private Boolean flag;
+}
